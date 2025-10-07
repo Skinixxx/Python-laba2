@@ -21,7 +21,6 @@ def count_word_frequency(filename: str) -> dict:
 def display_top_words(word_freq: dict, top_n: int = 10):
 
     word_items = list(word_freq.items())
-    
     for i in range(len(word_items)):
         for j in range(0, len(word_items) - i - 1):
             if word_items[j][1] < word_items[j + 1][1]:

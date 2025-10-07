@@ -26,4 +26,4 @@ def counting_vowel(string: str):
 
 print("Задача по нахождению гласных в строке.")
 string=input("Введите строку(на русском): ")
-print(counting_vowel(n))
+print(counting_vowel(string))
